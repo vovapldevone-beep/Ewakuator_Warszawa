@@ -1,0 +1,172 @@
+{
+  "brand": "AutoHol",
+  "city": "Warszawa",
+  "phone": "+48 700 123 456",
+
+  "nav": {
+    "services": "Usługi",
+    "how": "Jak to działa",
+    "pricing": "Cennik",
+    "districts": "Dzielnice",
+    "contact": "Kontakt",
+    "call": "Zadzwoń"
+  },
+
+  "hero": {
+    "badge": "Pomoc drogowa 24/7 w Warszawie",
+    "title": "Ewakuator Warszawa — holowanie 24/7",
+    "subtitle": "Laweta na całą Warszawę. Dojeżdżamy średnio w 20 minut. Holowanie, odpalanie, dowóz paliwa i otwieranie aut — o każdej porze dnia i nocy.",
+    "call": "Zadzwoń teraz",
+    "whatsapp": "Napisz na WhatsApp"
+  },
+
+  "stats": {
+    "minutes": "20 min",
+    "minutesLabel": "Średni czas dojazdu",
+    "support": "24/7",
+    "supportLabel": "Dyspozycyjność",
+    "clients": "500+",
+    "clientsLabel": "Zadowolonych klientów",
+    "rating": "5,0",
+    "ratingLabel": "Ocena w Google"
+  },
+
+  "services": {
+    "title": "Nasze usługi",
+    "subtitle": "Kompleksowa pomoc drogowa w Warszawie i okolicach",
+    "items": {
+      "tow": {
+        "title": "Holowanie aut",
+        "desc": "Bezpieczny transport lawetą samochodów osobowych po awarii lub kolizji."
+      },
+      "vans": {
+        "title": "Busy i dostawcze",
+        "desc": "Holowanie pojazdów dostawczych do 3,5 t z całej Warszawy."
+      },
+      "moto": {
+        "title": "Motocykle",
+        "desc": "Profesjonalny transport jednośladów ze specjalnym mocowaniem."
+      },
+      "battery": {
+        "title": "Akumulator",
+        "desc": "Awaryjne uruchomienie auta przy rozładowanym akumulatorze."
+      },
+      "fuel": {
+        "title": "Dowóz paliwa",
+        "desc": "Skończyło się paliwo? Dowieziemy benzynę lub olej napędowy."
+      },
+      "unlock": {
+        "title": "Otwieranie aut",
+        "desc": "Zatrzaśnięte kluczyki? Bezpiecznie otworzymy zamknięty samochód."
+      }
+    }
+  },
+
+  "how": {
+    "title": "Jak to działa",
+    "subtitle": "Trzy proste kroki do pomocy",
+    "step1": {
+      "title": "Dzwonisz",
+      "desc": "Wystarczy jeden telefon. Pytamy o lokalizację i rodzaj pojazdu."
+    },
+    "step2": {
+      "title": "Wyjeżdżamy",
+      "desc": "Najbliższa laweta rusza do Ciebie — średni czas dojazdu to 20 minut."
+    },
+    "step3": {
+      "title": "Holujemy",
+      "desc": "Bezpiecznie ładujemy auto i transportujemy je we wskazane miejsce."
+    }
+  },
+
+  "pricing": {
+    "title": "Cennik",
+    "subtitle": "Przejrzyste ceny bez ukrytych kosztów",
+    "service": "Usługa",
+    "price": "Cena",
+    "note": "Ceny orientacyjne. Ostateczny koszt ustalamy telefonicznie przed wyjazdem.",
+    "rows": {
+      "tow10": "Holowanie do 10 km",
+      "towKm": "Każdy kolejny kilometr",
+      "van": "Holowanie auta dostawczego",
+      "moto": "Holowanie motocykla",
+      "battery": "Uruchomienie auta (akumulator)",
+      "fuel": "Dowóz paliwa",
+      "unlock": "Otwieranie auta"
+    }
+  },
+
+  "reviews": {
+    "title": "Opinie klientów",
+    "subtitle": "Co mówią o nas kierowcy",
+    "items": {
+      "1": {
+        "text": "Złapałem gumę na obwodnicy w środku nocy. Laweta przyjechała w 18 minut, kierowca konkretny i pomocny. Polecam!",
+        "author": "Marek K.",
+        "location": "Mokotów"
+      },
+      "2": {
+        "text": "Rozładował mi się akumulator pod biurem. Jeden telefon i po kwadransie auto odpalone. Super obsługa.",
+        "author": "Anna W.",
+        "location": "Wola"
+      },
+      "3": {
+        "text": "Holowali mojego busa dostawczego po stłuczce. Profesjonalnie, szybko i w uczciwej cenie. Będę dzwonił ponownie.",
+        "author": "Tomasz R.",
+        "location": "Praga-Południe"
+      }
+    }
+  },
+
+  "districts": {
+    "title": "Działamy w całej Warszawie",
+    "subtitle": "Wybierz swoją dzielnicę i sprawdź lokalną pomoc drogową",
+    "cta": "Ewakuator"
+  },
+
+  "contact": {
+    "title": "Potrzebujesz lawety? Dzwoń teraz",
+    "subtitle": "Jesteśmy dostępni całą dobę, 7 dni w tygodniu",
+    "call": "Zadzwoń",
+    "available": "Dostępni 24/7 — również w weekendy i święta"
+  },
+
+  "footer": {
+    "tagline": "Pomoc drogowa i holowanie 24/7 na terenie całej Warszawy.",
+    "servicesTitle": "Usługi",
+    "districtsTitle": "Dzielnice",
+    "contactTitle": "Kontakt",
+    "rights": "Wszelkie prawa zastrzeżone."
+  },
+
+  "sticky": {
+    "call": "Zadzwoń — 24/7"
+  },
+
+  "district": {
+    "heroTitle": "Ewakuator {name} — Warszawa",
+    "metaTitle": "Ewakuator {name} Warszawa — Holowanie 24/7 {'|'} AutoHol",
+    "benefitsTitle": "Dlaczego my w dzielnicy {name}",
+    "back": "Wszystkie dzielnice",
+    "localTitle": "Lokalna pomoc drogowa — {name}"
+  },
+
+  "benefits": {
+    "fast": {
+      "title": "Szybki dojazd",
+      "desc": "Średnio 20 minut od telefonu do przyjazdu lawety."
+    },
+    "always": {
+      "title": "Zawsze dostępni",
+      "desc": "Pracujemy całą dobę, 7 dni w tygodniu, także w święta."
+    },
+    "price": {
+      "title": "Uczciwe ceny",
+      "desc": "Stała stawka ustalana z góry, bez ukrytych opłat."
+    },
+    "pro": {
+      "title": "Doświadczona ekipa",
+      "desc": "Nowoczesne lawety i kierowcy z wieloletnim stażem."
+    }
+  }
+}

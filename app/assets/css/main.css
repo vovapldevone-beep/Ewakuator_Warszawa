@@ -1,0 +1,201 @@
+:root {
+  --bg: #0a0a0a;
+  --bg-2: #121212;
+  --bg-3: #1a1a1a;
+  --accent: #ffd000;
+  --accent-dark: #d9b000;
+  --text: #f5f5f0;
+  --muted: #9a9a92;
+  --border: #2a2a2a;
+  --maxw: 1200px;
+  --nav-h: 72px;
+  --font-head: "Bebas Neue", "Barlow", system-ui, sans-serif;
+  --font-body: "Barlow", system-ui, -apple-system, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--nav-h) + 16px);
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-head);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 0.98;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--maxw);
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+.section {
+  padding: 96px 0;
+  border-top: 1px solid var(--border);
+}
+
+.section--tight {
+  padding: 64px 0;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 14px;
+}
+
+.section-title {
+  font-size: clamp(2.4rem, 6vw, 4.2rem);
+}
+
+.section-sub {
+  color: var(--muted);
+  font-size: 1.05rem;
+  margin-top: 14px;
+  max-width: 620px;
+}
+
+.section-head {
+  margin-bottom: 56px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 16px 28px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: transform 0.12s ease, background 0.18s ease, color 0.18s ease;
+  white-space: nowrap;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn--primary {
+  background: var(--accent);
+  color: #0a0a0a;
+}
+
+.btn--primary:hover {
+  background: #fff;
+}
+
+.btn--ghost {
+  background: transparent;
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.btn--ghost:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.btn--lg {
+  padding: 20px 36px;
+  font-size: 1.1rem;
+}
+
+.btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Grid helpers */
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+@media (min-width: 640px) {
+  .grid--2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .grid--3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .grid--4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Generic card */
+.card {
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  padding: 32px;
+  transition: border-color 0.18s ease, transform 0.18s ease;
+}
+
+.card:hover {
+  border-color: var(--accent);
+  transform: translateY(-4px);
+}
+
+.accent {
+  color: var(--accent);
+}
+
+/* Add space at the bottom on mobile so the sticky bar doesn't cover content */
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 64px;
+  }
+}
