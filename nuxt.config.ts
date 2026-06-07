@@ -16,6 +16,12 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
 
+  runtimeConfig: {
+    public: {
+      googleAnalyticsId: 'G-19CQRGMTB6',
+    },
+  },
+
   // Generated as a fully static site (run `nuxt generate`).
   ssr: true,
 
