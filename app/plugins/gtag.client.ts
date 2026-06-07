@@ -5,16 +5,18 @@ declare global {
   }
 }
 
-export default defineNuxtPlugin((nuxtApp) => {
+export default defineNuxtPlugin(() => {
   const {
     public: { googleAnalyticsId },
   } = useRuntimeConfig()
 
-  if (!googleAnalyticsId || import.meta.dev) return
+  if (!googleAnalyticsId) return
 
   window.dataLayer = window.dataLayer || []
-  window.gtag = function gtag(...args: unknown[]) {
-    window.dataLayer.push(args)
+  // gtag.js requires the raw `arguments` object here, NOT a real array.
+  window.gtag = function gtag() {
+    // eslint-disable-next-line prefer-rest-params
+    window.dataLayer.push(arguments)
   }
 
   window.gtag('js', new Date())
